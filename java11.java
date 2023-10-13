@@ -4,7 +4,7 @@ public class java11 {
     public static void main
     (String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-            System.out.println("See programm annab sulle 1kuni66 arvud ja nad koik jagunevad 3-ka");
+            System.out.println("see programm annab sulle 1kuni66 arvud ja nad koik jagunevad 3-ka");
             System.out.println("vajuta enterit palun.");
             scanner.nextLine();
 
