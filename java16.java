@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
-public class java16 {YH
+public class java16 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        System.out.print("Sisesta arvude arv: ");
+        System.out.print("Sisesta palun arvude arv: ");
         int arvudeArv = sc.nextInt();
         
         int summa = 0;
         
         for (int i = 1; i <= arvudeArv; i++) {
-            System.out.print("Sisesta arv " + i + ": ");
+            System.out.print("Sisesta5 arv " + i + ": ");
             int arv = sc.nextInt();
             summa += arv;
         }
