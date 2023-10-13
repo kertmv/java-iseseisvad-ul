@@ -10,7 +10,7 @@ public class java16 {
         int summa = 0;
         
         for (int i = 1; i <= arvudeArv; i++) {
-            System.out.print("Sisesta5 arv " + i + ": ");
+            System.out.print("Sisesta arv " + i + ": ");
             int arv = sc.nextInt();
             summa += arv;
         }
