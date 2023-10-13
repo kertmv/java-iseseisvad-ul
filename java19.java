@@ -23,7 +23,7 @@ public class java19 {
         
         while (decimal > 0) {
             int remainder = decimal % 2;
-            binary.insert(0, remainder); // Lisame kahendsüsteemi binaarstringi algusesse
+            binary.insert(0, remainder); 
             decimal = decimal / 2;
         }
         
